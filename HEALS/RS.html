@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigastan Sragen</title>
+    <link rel="stylesheet" href="assets/css/RS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>HEALS</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="fasilitas_kesehatan.html">Fasilitas Kesehatan</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="login.html" class="tbl-biru">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Maps Rute Fasilitas Kesehatan</h2>
+            <p>Klik marker faskes jika ingin melihat rute</p>
+            <div id="map"></div>
+            <div class="info">
+                <div class="photo">
+                    <h3>Foto Fasilitas Kesehatan</h3>
+                    <img src="rsud.jpg" alt="Foto Fasilitas Kesehatan">
+                </div>
+                <div class="details">
+                    <h3>Tabel Detail Informasi</h3>
+                    <table>
+                        <tr>
+                            <td>Nama Fasilitas</td>
+                            <td>RSU Mardi Lestari</td>
+                        </tr>
+                        <tr>
+                            <td>Kategori</td>
+                            <td>Rumah Sakit</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>Jl. Rokan No.2, Magero, Sragen Tengah, Kec. Sragen, Kabupaten Sragen, Jawa Tengah 57251</td>
+                        </tr>
+                        <tr>
+                            <td>Telephone</td>
+                            <td>0271891033</td>
+                        </tr>
+                        <tr>
+                            <td>Layanan</td>
+                            <td>Poliklinik Spesialis Penyakit Dalam, Poliklinik Spesialis Syaraf, Poliklinik Spesialis Bedah, Poliklinik Spesialis Paru, Poliklinik Spesialis Obsgyn, Poliklinik Spesialis Orthopedi, Poliklinik Spesialis Mata, Poliklinik Spesialis THT, Poliklinik Spesialis Kulit, Poliklinik Spesialis Jantung, Poliklinik Spesialis Gigi, Farmasi 24 Jam, Instalasi Gawat Darurat 24 Jam</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="aboutus">
+        <div class="wrapper_aboutus">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>HEALS</h3>
+                    <p>Website sistem informasi fasilitas kesehatan kota Mataram</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Website ini dibuat untuk memenuhi tugas project kelompok Pemrograman Web 2024 </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>+628123456789</p>
+                    <p>Kode Pos: 112233</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper_aboutus">
+            &copy; 2024. <b>HEALS.</b> Pemrograman web
+        </div>
+    </div>
+    
+    <script src="assets/js/RS.js"></script>
+</body>
+</html>
